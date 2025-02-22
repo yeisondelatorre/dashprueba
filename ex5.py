@@ -1,3 +1,9 @@
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+import seaborn as sns
+
+
 data = {
     'Volumen de Producción': [1000, 500, 1500, 800, 1200, 900, 1100, 650, 1400, 2000],
     'Técnica de Cultivo': ['Riego por goteo', 'Tradicional', 'Riego por goteo', 'Sist. Hidropónico', 
