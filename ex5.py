@@ -1,3 +1,21 @@
+data = {
+    'Volumen de Producción': [1000, 500, 1500, 800, 1200, 900, 1100, 650, 1400, 2000],
+    'Técnica de Cultivo': ['Riego por goteo', 'Tradicional', 'Riego por goteo', 'Sist. Hidropónico', 
+                           'Tradicional', 'Sist. Hidropónico', 'Riego por goteo', 'Tradicional', 
+                           'Riego por goteo', 'Sist. Hidropónico'],
+    'Campesino Asociado': ['Juan Pérez', 'María López', 'Carlos García', 'Ana Ruiz', 
+                           'Luis Hernández', 'Elena Díaz', 'José Martínez', 'Sofía Torres', 
+                           'Miguel Sánchez', 'Laura Fernández'],
+    'Género': ['Masculino', 'Femenino', 'Masculino', 'Femenino', 'Masculino', 
+               'Femenino', 'Masculino', 'Femenino', 'Masculino', 'Femenino'],
+    'Edad': [45, 38, 50, 32, 41, 29, 54, 27, 36, 41],
+    'Año': [2021, 2021, 2022, 2022, 2023, 2023, 2022, 2023, 2021, 2021]  # Año de producción
+}
+
+# Crear el DataFrame
+df = pd.DataFrame(data)
+
+
 # Streamlit App Title
 st.title("📊 DAsh Agrícola")
 
