@@ -1,3 +1,8 @@
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+import seaborn as sns
+
 # example 6
 # Cargar el dataset de mpg de Seaborn
 df = sns.load_dataset('mpg')
